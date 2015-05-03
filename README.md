@@ -16,5 +16,9 @@ angular.module('app', ['victorqueiroz.ngOmdb'])
 				$scope.results = results;
 			});
 		};
+
+		this.getMovie = function () {
+			return $omdb.get(movieId);
+		};
 	});
 ```
