@@ -34,7 +34,7 @@ function $OmdbProvider () {
 					params.t = id;
 				}
 
-				if(angular.isDefind(type)) {
+				if(angular.isDefined(type)) {
 					params.type = type;
 				}
 
